@@ -1,4 +1,6 @@
-
+#!/bin/sh
+# https://ngrok.com/download
+printf "\n \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;96m Creando tunel Ngrok para localhost:80  \e[0m\n"
 service apache2 start
 sleep 2
 ./ngrok
