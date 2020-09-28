@@ -1,4 +1,5 @@
 #!/bin/sh
+# https://ngrok.com/download
 
 echo "instalando ngrok .."
 sudo apt update && sudo apt full-upgrade -y
