@@ -20,10 +20,6 @@ Ngrok crea un túnel entre tu máquina local —que puede estar detrás de un ro
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Detalle de cada script](#detalle-de-cada-script)
-- [Preguntas frecuentes](#preguntas-frecuentes)
-- [Aviso importante](#aviso-importante)
-- [Licencia](#licencia)
-- [Autor y enlaces](#autor-y-enlaces)
 
 ---
 
@@ -112,8 +108,6 @@ ngrok http <PUERTO>
 **`instalar.sh`** — Instalador de ngrok. Descarga el paquete `.zip` del binario y lo coloca en `/usr/bin` para que quede disponible como comando `ngrok` en cualquier ruta.
 
 **`ngrok.sh`** — Automatiza el flujo completo para exponer un servidor web local: arranca Apache, crea el túnel HTTP en segundo plano y muestra en pantalla la URL pública (`*.ngrok.io` o `*.ngrok-free.app`, según el plan) junto con las conexiones activas.
-
----
 
 ---
 
