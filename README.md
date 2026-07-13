@@ -53,7 +53,7 @@ Casos de uso típicos:
 
 ---
 
-## Requisitos
+### Requisitos
 
 - Distribución basada en Debian (Debian, Ubuntu, Kali Linux, Parrot OS, etc.).
 - Permisos de administrador (`sudo`).
@@ -117,7 +117,7 @@ ngrok http <PUERTO>
 
 ---
 
-## importante
+### importante
 
 - El enlace de descarga en `instalar.sh` apunta a un binario **legacy** de ngrok v2 (`bin.equinox.io`). Ngrok ha migrado su distribución oficial a un repositorio APT propio y a la CLI v3; si la descarga falla o el binario queda desactualizado, instala la versión oficial más reciente siguiendo la guía en [ngrok.com/download](https://ngrok.com/download) (repositorio `apt` oficial) en lugar de este script.
 - Exponer un servicio a Internet, aunque sea temporalmente, implica riesgos de seguridad: usa `ngrok http --basic-auth` u otras opciones de autenticación si el contenido es sensible, y cierra el túnel cuando termines (`Ctrl+C` o `killall ngrok`).
